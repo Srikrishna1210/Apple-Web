@@ -64,3 +64,51 @@ nav li:hover .hover_container {
 .hover_container_data a {
   font-size: 12px;
 }
+
+
+/* @ Store container starts here */
+
+.footnote {
+  height: 70px;
+  border: solid;
+}
+
+.storeContainer {
+  height: 240px;
+  /* border: solid; */
+}
+.storeContainer article:first-child aside {
+  font-size: 72px;
+  background-image: linear-gradient(to right, blue, orange);
+  -webkit-background-clip: text; /* For cross-browser compatibility */
+  background-clip: text;
+  color: transparent;
+  font-weight: 600;
+}
+
+.holiday {
+  width: 350px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+/* ! Image slider */
+
+.imageSlider img {
+  height: 100px;
+  width: 150px;
+}
+
+.imageSlider {
+  display: flex;
+  text-align: center;
+  gap: 30px;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.imageSlider figure {
+  width: 300px;
+  height: 300px;
+}
